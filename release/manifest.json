@@ -1,0 +1,12 @@
+{
+  "manifest_version" : 2,
+  "name" : "kitbook",
+  "description" : "Replace",
+  "version" : "0.0.1",
+  "content_scripts" : [{
+      "homepage_url" : "https://calosliu.space",
+      "matches" : ["*://www.baidu.com/*"],
+      "js" : ["js/values.js", "js/prompt.js"]
+    }
+  ]
+}
